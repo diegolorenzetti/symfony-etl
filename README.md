@@ -23,12 +23,12 @@ The files that I used are:
 
 - [src/Command/ProductMigrateCommand.php](src/Command/ProductMigrateCommand.php): Command to run our products migration
 - [src/Service/ProductExtractor.php](src/Service/ProductExtractor.php): our extractor
-- [src/Service/ProductTranformer.php](src/Service/ProductTranformer.php): our transformer
+- [src/Service/ProductTransformer.php](src/Service/ProductTransformer.php): our transformer
 - [src/Service/ProductLoader.php](src/Service/ProductLoader.php): our loader
 - [src/Entity/Product.php](src/Entity/Product.php): the Product entity
 - [src/Entity/Category.php](src/Entity/Category.php): the category entity
-- [csv/products.csv](csv/products.csv): the csv file
-- [config/services.yml](config/services.yml): changed to configure our csv file as parameter of our extractor service
+- [csv/product.csv](csv/product.csv): the csv file
+- [config/services.yaml](config/services.yaml): changed to configure our csv file as parameter of our extractor service
 - [tests/](tests/): all unit tests
 
 
